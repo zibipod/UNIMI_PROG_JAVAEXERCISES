@@ -1,0 +1,18 @@
+Lista Esercizi Assegnati dal Prof.Boldi
+----------------------------------------------
+- Leggere un BigInteger e stampare l'unità
+- Leggere un BigInteger e stampare le decine
+- Leggere un BigInteger e convertirlo in binario
+- Stampare la prima metà di una stringa
+- Stampare la seconda metà di una stringa
+- Dati gli anni di nascita di due utenti, visualizzare chi è più vecchio
+- Stabilire se un numero è pari
+- Stabilire se un numero è multiplo di 100
+- Leggo il nome e cognome di una persona e devo stabilire in modo approssimativo
+  se è uomo o donna (se finisce con A è donna se con O uomo, altrimenti non lo so)
+- Acquisire numero in binario e visualizzarlo in decimale
+- Soluzione di un equazione di secondo grado
+- Chiedere due numeri n1,n2 in base b1, b2 e decidere se è più grande n1 o n2.
+- Controllo del codice fiscale (6char,2num,1char,2num,1char,3num,1char) (usare Character.isLetter(c)) e capire se è maschio o femmina (giorno di nascita + 40)
+- Dato un anno vedere se è bisestile
+- http://boldi.di.unimi.it/Corsi/Inf2016/Compitino1/prepcomp1.pdf
