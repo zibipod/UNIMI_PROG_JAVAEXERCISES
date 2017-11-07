@@ -48,7 +48,10 @@ public class ContaVocali {
                         }
                         counter = counter + isVocale(input.charAt(i));
                 }
-                System.out.println("media:"+(sum/words));
+                if(sum!=0 && words!=0)
+                        System.out.println("media:"+(sum/words));
+                else
+                        System.out.println("media:0");
                 System.out.println("max:"+max);
         }
 
