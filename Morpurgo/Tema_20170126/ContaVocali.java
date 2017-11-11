@@ -38,7 +38,7 @@ public class ContaVocali {
                 String input=sb.toString();
                 int counter=0, sum=0, words=0, max=0;
                 for(int i=0; i<input.length(); i++){
-                        if(input.charAt(i)==' ' || i==input.length()){
+                        if(input.charAt(i)==' ' || i==(input.length()-1)){
                                 if(counter!=0){
                                         if(counter > max) max=counter;
                                         sum+=counter;
