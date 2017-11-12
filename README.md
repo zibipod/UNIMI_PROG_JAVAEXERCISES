@@ -15,3 +15,10 @@ So use them at your own risk! ;)
 
 _All the exercises are written using Vim, to better exercise the memory not using auto-completion._
 
+
+### List of Contibutors
+
++ [@zibipod](https://github.com/zibipod)
+
+
+
