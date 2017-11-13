@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------
+-									COMANDI LINUX						 -
+--------------------------------------------------------------------------
+
+ Input linux
+
+ cmd
+ cmd >out.txt            (il comando va a finire dentro al file out.txt)
+ cmd <in.txt             (il comando verrà letto da questo file)
+
+ possibili applicazioni : se si ha un programma che prende n numeri in entrata per calcolarne 
+ la media usare un file di numeri gia scritti e importarli con <.
+
+--------------------------------------------------------------------------
+-							      ARRAY - COSTRUZIONE					 -
+--------------------------------------------------------------------------
+
+>Dichiarazione             : tipoDiBase [] id , id , ... ;
+>Dichiarazione alternativa : tipoDiBase id[] , id[] , ....
+-Esempio                   : int[] x;                           : int[] x , f , c;
+-Esempio 2                 : int x[], c[], b[];
+
+ Una volta dichiarati vanno creati
+
+>Creazione 				  : x = new tipoDiBase [dimensione];
+-Esempio   			      : x = new int[10];
+
+
+--------------------------------------------------------------------------
+-								  ARRAY - ESEMPIO						 -
+--------------------------------------------------------------------------
+
+int[] altezza = new int[400];
+int n = 0;
+int x;
+while((x=in.nextInt()!=0){ 											//se questo intero x è diverso da 0 incremento n elo metto nell'indice dell'array altezza.
+	altezza[n++]=x;
+	if(n==altezza.length)
+		break;
+	}
+
+int somma = 0;
+for(int i=0 , i<n,i++)
+	somma += altezza[i];
+double media = (double)(somma)/n;
+
+double sommaDiff2 =0;
+for(int i=0,i<n,i++)
+	sommaDiff2 += (altezza[i]-media)*(altezza[i]-media);
+double var = sommaDiff2/n;
+
+--------------------------------------------------------------------------
+-						      FOREACH - COSTRUZIONE                      -
+--------------------------------------------------------------------------
+
+int[] a;
+a = new int[10];
+for(int x : a) {
+        //ciclo
+}
+
+//per ogni elemento a in a fai qualcosa.
+
+//fa solo scansioni in avanti di un array.
+//inutile per array sovradimensionati
+//si usa per l'accesso in lettura ma non in scrittura
+//inadatto per usare il break. 
+
+--------------------------------------------------------------------------
+-						      FOREACH - ESEMPIO                          -
+--------------------------------------------------------------------------
+
+
+for (String fruit : fruits) {
+    // fruit is an element of the `fruits` array.
+}
+
+// è equivalente a :
+
+for (int i = 0; i < fruits.length; i++) {
+    String fruit = fruits[i];
+    // fruit is an element of the `fruits` array.
+}
+
+--------------------------------------------------------------------------
+-						      FOREACH - ESEMPIO                          -
+--------------------------------------------------------------------------
+

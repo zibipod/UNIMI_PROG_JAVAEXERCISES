@@ -1,0 +1,12 @@
+////////////////////////////////////////////////////////////
+//acquisire numero in binario e visualizzarlo in decimale//
+//////////////////////////////////////////////////////////
+
+import java.util.*;
+import java.math.*;
+
+public class B10{
+	public static void main(String[] args){
+	
+	}
+}

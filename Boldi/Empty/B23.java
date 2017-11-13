@@ -1,0 +1,12 @@
+///////////////////////////////////////////////////////////////////////////////////////////
+//legge i cognomi di un certo numero di persone dopo aver chiesto quante persone ci sono//
+//e stampa i cognomi la cui lunghezza è maggiore dalla media dall'ultimo al primo      //
+////////////////////////////////////////////////////////////////////////////////////////
+
+import java.util.*;
+
+public class B23{
+	public static void main(String[] args){
+	
+	}
+}

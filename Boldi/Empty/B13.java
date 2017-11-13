@@ -1,0 +1,13 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Controllo del codice fiscale (6char,2num,1char,2num,1char,3num,1char) (usare Character.isLetter(c))//
+// e capire se è maschio o femmina (giorno di nascita + 40)                                         //
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+import java.util.*;
+import java.math.*;
+
+public class B13{
+	public static void main(String[] args){
+	
+	}
+}
